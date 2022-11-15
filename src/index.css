@@ -4,5 +4,44 @@
 }
 
 .App {
-  background-color:aqua;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Info {
+  text-align: center;
+  padding: 1em;
+}
+
+.headshot {
+  height: 375px;
+}
+
+.text {
+  padding: 1em;
+}
+
+h3 {
+  margin-bottom: .2em;
+}
+
+#title {
+  font-size: 20px;
+  color:coral;
+  margin-bottom: .7em;
+}
+
+#website {
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+#email {
+  padding: .35em;
+  width: 80%;
+  display:inline-flex;
+  justify-content: center;
+}
+
+#email p {
+  margin-left: 8px;
 }
