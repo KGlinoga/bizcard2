@@ -9,11 +9,11 @@ export default function Info() {
             <div className="text">
                 <h3>Kristina Glinoga</h3>
                 <p id="title">Frontend Developer</p>
-                <p id="website">kglinoga.website</p>
-                <button id="email">
+                <a href="https://react-icons.github.io/react-icons" target="_blank" rel="noreferrer"><p id="website">kglinoga.website</p></a>
+                <a href="mailto:kglinoga@gmail.com" target="_blank" rel="noreferrer"><button id="email" >
                     <BiMailSend />
                     <p>Email</p>
-                </button>
+                </button></a>
             </div>
         </div>
     )
